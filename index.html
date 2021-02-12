@@ -6,26 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ApVikna</title>
     <link rel="stylesheet" href="css/slyle.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Tinos:wght@400;700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+    </style>
 </head>
 <body>
     <div class="main_container">
 
-        <div class="menu_wrap">
-            <div class="main_logo">
-                <img src="icon/main_logo.png" alt="main_logo">
-            </div>
-            <div class="nav_wrap">
-                <ul class="nav">
-                    <li class="nav_item nav_item_active"><a href="">ГОЛОВНА</a></li>
-                    <li class="nav_item"><a href="">ВІКНА</a></li>
-                    <li class="nav_item"><a href="">ДВЕРІ</a></li>
-                    <li class="nav_item"><a href="">КОМПЛЕКТАЦІЯ</a></li>
-                    <li class="nav_item"><a href="">ПРОДУКЦІЯ</a></li>
-                    <li class="nav_item"><a href="">КОНТАКТИ</a></li>
-                    <li class="nav_item">UA</li>
-                </ul>
+        <div class="fixed">
+            <div class="menu_container">
+                <div class="main_logo">
+                    <img src="icon/main_logo.png" alt="main_logo">
+                </div>
+                <div class="nav_wrap">
+                    <ul class="nav">
+                        <li class="nav_item nav_item_active"><a class="nav_item_link nav_item_link_active" href="">ГОЛОВНА</a></li>
+                        <li class="nav_item"><a class="nav_item_link" href="">ВІКНА</a></li>
+                        <li class="nav_item"><a class="nav_item_link" href="">ДВЕРІ</a></li>
+                        <li class="nav_item"><a class="nav_item_link" href="">КОМПЛЕКТАЦІЯ</a></li>
+                        <li class="nav_item"><a class="nav_item_link" href="">ПРОДУКЦІЯ</a></li>
+                        <li class="nav_item"><a class="nav_item_link" href="">КОНТАКТИ</a></li>
+                        <li class="nav_item">
+                            <center>
+                                <select id="record-language-selection">
+                                    <option class="change_language" value="Uk">ua</option>
+                                    <option class="change_language" value="Ru">ru</option>
+                                </select>
+                            </center>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+
+        <div class="window_conrtainer">
+            <div class="inf_container">
+                <div class="window_logo">
+                    <img class="window_logo_img" src="icon/logo_big.png" alt="logo_big">
+                </div>
+                <div class="window_text">
+                    Ми проектуємо і створюємо красиві, якісні вікна та двері, арочні і розсувні конструкції. 
+                </div>
+                <div class="window_buttons_wrap">
+                    <div class="window_button_contact_us">
+                        <a href="">Зв’язатись з нами</a>
+                    </div>
+                    <div class="window_abous_us">
+                        <a href="">Про компанію</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
     </div>
 </body>
