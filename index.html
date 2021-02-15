@@ -5,61 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ApVikna</title>
-    <link rel="stylesheet" href="css/slyle.css">
+    <link rel="stylesheet" href="css_main/menu.css">
+    <link rel="stylesheet" href="css_main/teg_style.css">
+    <link rel="stylesheet" href="css_main/windows.css">
+    <link rel="stylesheet" href="css_main/about_us.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Tinos:wght@400;700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
     </style>
+
 </head>
 <body>
     <div class="main_container">
 
-        <div class="fixed">
-            <div class="menu_container">
-                <div class="main_logo">
-                    <img src="icon/main_logo.png" alt="main_logo">
-                </div>
-                <div class="nav_wrap">
-                    <ul class="nav">
-                        <li class="nav_item nav_item_active"><a class="nav_item_link nav_item_link_active" href="">ГОЛОВНА</a></li>
-                        <li class="nav_item"><a class="nav_item_link" href="">ВІКНА</a></li>
-                        <li class="nav_item"><a class="nav_item_link" href="">ДВЕРІ</a></li>
-                        <li class="nav_item"><a class="nav_item_link" href="">КОМПЛЕКТАЦІЯ</a></li>
-                        <li class="nav_item"><a class="nav_item_link" href="">ПРОДУКЦІЯ</a></li>
-                        <li class="nav_item"><a class="nav_item_link" href="">КОНТАКТИ</a></li>
-                        <li class="nav_item">
-                            <center>
-                                <select id="record-language-selection">
-                                    <option class="change_language" value="Uk">ua</option>
-                                    <option class="change_language" value="Ru">ru</option>
-                                </select>
-                            </center>
-                        </li>
-                    </ul>
-                </div>
+        <section class="header">
+            <div class="logo_img_wrap">
+                <img class="logo_img" src="images/logo/title_logo.png" alt="logo_img">
             </div>
-        </div>
+            <div class="nav_wrap">
+                <ul class="nav">
+                    <li class="nav_item nav_item_active"><a class="nav_item_link nav_item_link_active" href="">ГОЛОВНА</a></li>
+                    <li class="nav_item"><a class="nav_item_link" href="">ВІКНА</a></li>
+                    <li class="nav_item"><a class="nav_item_link" href="">ДВЕРІ</a></li>
+                    <li class="nav_item"><a class="nav_item_link" href="">КОМПЛЕКТАЦІЯ</a></li>
+                    <li class="nav_item"><a class="nav_item_link" href="">ПРОДУКЦІЯ</a></li>
+                    <li class="nav_item"><a class="nav_item_link" href="">КОНТАКТИ</a></li>
+                    <li class="nav_item">
+                        <center>
+                            <select id="record-language-selection">
+                                <option class="change_language" value="Uk">ua</option>
+                                <option class="change_language" value="Ru">ru</option>
+                            </select>
+                        </center>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-        <div class="window_conrtainer">
-            <div class="inf_container">
-                <div class="window_logo">
-                    <img class="window_logo_img" src="icon/logo_big.png" alt="logo_big">
-                </div>
-                <div class="window_text">
-                    Ми проектуємо і створюємо красиві, якісні вікна та двері, арочні і розсувні конструкції. 
-                </div>
-                <div class="window_buttons_wrap">
-                    <div class="window_button_contact_us">
-                        <a href="">Зв’язатись з нами</a>
-                    </div>
-                    <div class="window_abous_us">
-                        <a href="">Про компанію</a>
+
+
+        <section class="windows">
+            <div class="windows_bg_wrap">
+                <img class="windows_bg" src="images/title/main_cover.jpg" alt="bg_hover">
+            </div>
+            <div class="windows_info_wrap">
+                <div class="windows_info">
+                    <div class="windows_info_logo_wrap"><img class="windows_info_logo" src="images/logo/big_logo.png" alt="logo_big"></div>
+                    <div class="windows_info_text">Ми проектуємо і створюємо красиві, якісні вікна та двері, арочні і розсувні конструкції. </div>
+                    <div class="buttons_wrap">
+                        <button class="windows_info_contact_us"><a class="windows_info_contact_us_link"  href="">Зв’язатись з нами</a></button>
+                        <button class="windows_info_about_us"><a class="windows_info_about_us_link" href="">Про компанію</a></button>  
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
+        <section class="about_company">
+            <div class="about_company_wrap">
+                <div class="about_company_picture_wrap">
+                    <img class="about_company_picture" src="images/content/index/about_company.jpg" alt="">
+                </div>
+                <div class="about_company_text_wrap">
+                    <div class="about_company_heading_text">
+                        Про нашу компанію
+                    </div>
+                    <div class="about_company_main_text">
+                        ТОВ «АРКАДА-ПЛАСТ» з 1997 року працює на ринку світлопрозорих конструкцій. Виготовляє вікна та двері з високоякісного і екологічно чистого ПВХ профілю «INTERNOVA» (Словаччина) і WDS (Україна), на конструкції встановлюється австрійська фурнітура MACO. Має власне виробництво потужністю до 200 м.кв в зміну, склопакетний цех. Наша компанія може запропонувати як бюджетні, так і преміум рішення для високоефективних будинків. Кваліфікований інженерно-технічний персонал в найкоротші терміни спроектує, виготовить і змонтує вироби будь-якої складності.
+                    </div>
+                    <button class="about_company_button">
+                        <a class="about_company_button_link" href="">Зв’язатись з нами</a>
+                    </button>
+                </div>
+            </div>
+        </section>
 
+        <section>
+        </section>
 
+        <section>
+        </section>
     </div>
 </body>
 </html>
