@@ -160,36 +160,3 @@
 .our_production_item_wrap:hover{
     box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.15);
 }
-
-.footer_okna_wrap{
-    font:12px Arial, Helvetica, sans-serif;
-    height:31px;
-    min-height:31px;
-    min-width:88px;
-    background:#89A5FF url(https://okna.ua/img/bg-okna-ua-1.png) repeat-x;
-    float:left;
-}
-
-.footer_okna_apvikna{
-    white-space:nowrap;
-    display:block;
-    color:#fff;
-    margin:0 5px;
-    text-decoration:none;
-}
-
-.footer_okna_c-week_img{
-    float:left;
-    margin-left:5px;
-    border:0;
-}
-
-.footer_okna_okna{
-    white-space:nowrap;
-    text-align:right;
-    display:block;
-    margin:0 5px;
-    font-weight:bold;
-    color:#FFFFFF;
-    text-decoration:none;
-}
