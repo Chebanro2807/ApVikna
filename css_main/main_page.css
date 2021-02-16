@@ -1,0 +1,195 @@
+/* About us block */
+
+.about_company_wrap{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    padding: 180px 0px 180px 0px;
+}
+
+
+.about_company_picture{
+    object-fit: cover;
+    width: 660px;
+    height: 560px;
+}
+
+.about_company_heading_text{
+    position: relative;
+    font-family: 'Merriweather',serif;
+    font-weight: 700;
+    font-size: 52px;
+    color: #062a4d;
+    line-height: 1.23;
+    padding-left: 40px;
+    margin-bottom: 24px;
+}
+
+.about_company_heading_text::after{
+    content: '';
+    position: absolute;
+    width: 45px;
+    opacity: 1;
+    border-top: 3px solid  #50aab2;
+    box-sizing: border-box;
+    bottom: -25px;
+    left: 40px;
+}
+
+.about_company_main_text{
+    text-align: left;
+    width: 99%;
+    padding-left: 40px;
+    padding-top: 23px;
+    font-size: 16px;
+    font-family: 'Merriweather',serif;
+    color: #758799;
+    line-height: 1.55;
+    box-sizing: content-box;
+}
+
+.about_company_button{
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 260px;
+    height: 60px;
+    border: none;
+    background-color: #d0df56;
+    padding: 0px;
+}
+
+.about_company_button_link{
+    text-transform: uppercase;
+    text-align: center;
+    width: 140px;
+    height: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #062849;
+    font-family: 'Tinos', serif;
+    font-weight: 600;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.about_company_button:hover{
+    background-color: #c5c452;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2)
+}
+
+/* Our production block */
+
+.our_production{
+    padding-top: 135px;
+    padding-bottom: 135px;
+    background-color: #ebf2f3;
+}
+
+.our_production_wrap{
+    width: 1200px;
+    margin: 0px auto 0px auto;
+}
+
+.our_production_main_text{
+    text-align: center;
+    width: 100%;
+    height: 63px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    line-height: 1.23;
+    font-size: 52px;
+    color: #062a4d;
+}
+
+.our_production_main_wrap{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.our_production_item_wrap{
+    position: relative;
+    background-color: white;
+    width: 360px;
+    height: 577px;
+}
+
+.our_production_item_img{
+    width: 360px;
+    height: 302px;
+}
+
+.our_production_title{
+    padding-top: 36px;
+    text-align: center;
+    font-size: 22px;
+    color: #062a4d;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    line-height: 1.35;
+}
+
+.our_production_item_text{
+    width: 280px;
+    padding-top: 8px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    font-size: 14px;
+    color: #50aab2;
+    line-height: 1.55;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.our_production_details{
+    position: absolute;
+    bottom: 0;
+    width: 280px;
+    padding: 0 40px 28px;
+    text-align: center;
+    color: #062a4d;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.our_production_details::after{
+    content: "\00a0→";
+}
+
+.our_production_item_wrap:hover{
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.15);
+}
+
+.footer_okna_wrap{
+    font:12px Arial, Helvetica, sans-serif;
+    height:31px;
+    min-height:31px;
+    min-width:88px;
+    background:#89A5FF url(https://okna.ua/img/bg-okna-ua-1.png) repeat-x;
+    float:left;
+}
+
+.footer_okna_apvikna{
+    white-space:nowrap;
+    display:block;
+    color:#fff;
+    margin:0 5px;
+    text-decoration:none;
+}
+
+.footer_okna_c-week_img{
+    float:left;
+    margin-left:5px;
+    border:0;
+}
+
+.footer_okna_okna{
+    white-space:nowrap;
+    text-align:right;
+    display:block;
+    margin:0 5px;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-decoration:none;
+}
