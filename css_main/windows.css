@@ -79,6 +79,10 @@
     padding: 14px 22px;
 }
 
+.window_types_item:hover{
+    background-color: #d0df56
+}
+
 .window_types_item_active{
     cursor: default;
     background-color: #d0df56
@@ -183,4 +187,20 @@
 
 li.active{
     background-color: #222
+}
+
+.window_types_slider_item_standart{
+    display: none;
+}
+
+.window_types_slider_item_standart_active{
+    display: flex;
+}
+
+.window_types_slider_item_notstandart{
+    display: none;
+}
+
+.window_types_slider_item_notstandart_active{
+    display: flex;
 }
