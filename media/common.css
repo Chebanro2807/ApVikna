@@ -1,4 +1,8 @@
 @media(max-width: 1440px){
+
+    body{
+        height: 100%;
+    }
     .transform-hamburger{
         display: block;
     }

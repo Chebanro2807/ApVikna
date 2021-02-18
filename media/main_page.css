@@ -1,0 +1,98 @@
+@media(max-width:1440px){
+    .title_cover_bg_wrap{
+        height: 662px;
+    }
+    .title_cover_bg{
+        height: 662px;
+    }
+
+    .title_cover_info{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 570px;
+        height: 375px;
+    }
+    .title_cover_info_wrap{
+        width: 100%;
+        height: 662px;
+    }
+    .title_cover{
+        height: 100%;
+    }
+    .main_container{
+        height: 100%;
+    }
+    .title_cover_info_logo_wrap{
+        padding-top: 45px;
+        width: 500px;
+        height: auto;
+    }
+    .title_cover_info_logo {
+        width: 500px;
+        height: auto;
+    }
+    .title_cover_info_text{
+        font-size: 17px;
+        width: 80%;
+    }
+    .title_cover_info_contact_us{
+        width: 200px;
+        height: 50px;
+    }
+    .title_cover_info_about_us{
+        width: 200px;
+        height: 50px;
+    }
+    .title_cover_info_contact_us_link{
+        padding: 0px;
+    }
+    .title_cover_info_about_us_link{
+        padding: 0px;
+    }
+
+    .about_company_wrap{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0px 100px 0px;
+    }
+
+    .about_company_picture{
+        width: 500px;
+        height: 400px;
+    }
+    .about_company_text_wrap{
+        width: 100%;
+    }
+    .about_company_heading_text{
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .about_company_main_text{
+        margin-top: 20px;
+        width: 560px;
+        padding: 0px;
+    }
+
+    .about_company_text_wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_company_heading_text::after{
+        width: 560px;
+        top: 120%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .about_company_button{
+        margin-left: 0px;
+    }
+
+}
