@@ -94,5 +94,15 @@
     .about_company_button{
         margin-left: 0px;
     }
-
+    .our_production_wrap{
+        width: 100%;
+    }
+    .our_production_main_wrap{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0px;
+    }
+    .our_production_item_wrap{
+        margin-top: 50px;
+    }
 }
