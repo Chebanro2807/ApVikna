@@ -8,7 +8,7 @@
 
     .title_cover_info{
         position: absolute;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 570px;
@@ -104,6 +104,12 @@
     }
     .our_production_item_wrap{
         margin-top: 50px;
+    }
+}
+
+@media(max-width:1024px){
+    .title_cover_info{
+        top: 50%;
     }
 }
 

@@ -1,0 +1,11 @@
+@media(max-width:1440px){
+    .windows_title_text_wrap{
+        width: 100%;
+    }
+    .windows_title_text_wrap{
+        height: 378px;
+    }
+    .windows_title_container{
+        height: 378px;
+    }
+}

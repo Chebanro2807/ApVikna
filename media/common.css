@@ -1,12 +1,36 @@
 @media(max-width: 1440px){
+    .nav{
+        padding-right: 0px;
+        padding-left: 90px;
+    }
+    .nav_item{
+        padding-left: 0px; 
+        padding-right: 0px;
+    }
+    .footer_wrap{
+        width: 90%;
+        height: 100%;
+        padding: 0px;
+    }
+    .footer{
+        height: 350px;
+    }
+    .footer_nav_logo_wrap{
+        padding-top: 85px;
+    }
 
+    .footer_logo_main{
+        padding-top: 85px;
+    }
+}
+
+@media(max-width: 1024px){
     body{
         height: 100%;
     }
     .transform-hamburger{
         display: block;
     }
-
 
     .burger_wrap{
         position: fixed;
