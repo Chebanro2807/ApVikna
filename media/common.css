@@ -146,3 +146,40 @@
         padding-top: 85px;
     }
 }
+
+@media(max-width: 768px){
+    .footer{
+        height: 100%;
+    }
+    .footer_wrap{
+        flex-direction: column;
+    }
+    .footer_logo_main{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer_logo{
+        width: 100px;
+        height: auto;
+    }
+    .footer_logo_text{
+        display: none;
+    }
+    .footer_nav_logo_wrap{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+    }
+    .footer_nav_menu{
+        text-align: center;
+    }
+    .footer_nav{
+        padding-right: 0px;
+        text-align: center;
+    }
+    .footer_logos_wrap{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+}
