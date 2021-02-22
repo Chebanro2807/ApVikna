@@ -3,6 +3,10 @@
     height: 603px;
 }
 
+.select_doors{
+    display: none;
+}
+
 .doors_title_wrap{
     position: relative;
     width: 100%;
