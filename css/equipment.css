@@ -3,6 +3,10 @@
     height: 510px;
 }
 
+.select_equipment{
+    display: none;
+}
+
 .equipment_title_wrap{
     position: relative;
     width: 100%;

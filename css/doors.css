@@ -195,4 +195,5 @@ li.active{
 
 .doors_types_slider_item_single-leaf{
     display: flex;
+    justify-content: center;
 }
