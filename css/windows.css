@@ -204,3 +204,10 @@ li.active{
 .window_types_slider_item_notstandart_active{
     display: flex;
 }
+
+.window_types_list_mobile{
+    display: none;
+}
+.subtab__firefoxfix{
+    display: none;
+}
