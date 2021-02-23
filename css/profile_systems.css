@@ -1,3 +1,7 @@
+.select_profile_sys{
+    display: none;
+}
+
 .profile_sys_title_container{
     width: 100%;
     height: 510px;
