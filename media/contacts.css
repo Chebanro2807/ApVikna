@@ -1,0 +1,25 @@
+@media(max-width:1440px){
+    .contacts_title_container{
+        height: 50vh;
+    }
+    .contacts_title_text_wrap{
+        width: 100%;
+    }
+}
+
+@media(max-width:1024px){
+    .contact_informaition_wrap{
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .contact_informaition_item{
+        padding-top: 90px;
+    }
+}
+
+@media(max-width:768px){
+    .contacts_title_text{
+        font-size: 40px;
+    }
+}
+
