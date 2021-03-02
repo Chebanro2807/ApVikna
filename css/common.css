@@ -205,6 +205,8 @@ a{
     height: 60px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #062849;
     font-family: 'Tinos', serif;
     font-weight: 600;
@@ -228,6 +230,8 @@ a{
     height: 60px;
     padding-left: 60px;
     padding-right: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #062849;
     font-family: 'Tinos', serif;
     font-weight: 600;
